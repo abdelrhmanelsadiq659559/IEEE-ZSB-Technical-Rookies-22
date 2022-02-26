@@ -22,11 +22,11 @@ void loop() {
   distance=duration*.034/2;
   if (distance >=10)
   {
-    Serial.print("safe \n");
+    Serial.println("safe \n");
   }
   else 
   {
-    Serial.print("too close \n");
+    Serial.println("too close \n");
   }
 
 
